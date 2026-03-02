@@ -25,4 +25,16 @@
 The Job Search Agent is an intelligent autonomous system designed to revolutionize the job search process through automation and personalization. Built using the SPADE (Smart Python Agent Development Environment) framework, this agent operates as a digital employment assistant that continuously monitors multiple job platforms on behalf of the user. The system begins by constructing a detailed user profile containing skills, experience level, location preferences, job type preferences, and salary expectations. Once configured, the agent autonomously performs scheduled searches across integrated job sources, collects and normalizes job listings, and applies a sophisticated matching algorithm that evaluates each opportunity against the user's profile.
 
 ## 3. System Goals
-...
+**Primary Goal**
+Create an intelligent autonomous agent that continuously searches, filters, and notifies users about relevant job opportunities matching their skills and preferences.
+
+**Secondary Goals**
+1)Automation: Reduce manual job search effort by 80%
+
+2)Accuracy: Deliver >90% relevant job matches
+
+3)Timeliness: Notify users within 1 hour of new job posting
+
+4)Scalability: Support multiple job sources and user profiles
+
+5)Usability: Require minimal technical knowledge to operate
