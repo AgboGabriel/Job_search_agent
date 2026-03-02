@@ -29,12 +29,12 @@ The Job Search Agent is an intelligent autonomous system designed to revolutioni
 Create an intelligent autonomous agent that continuously searches, filters, and notifies users about relevant job opportunities matching their skills and preferences.
 
 **Secondary Goals**
-*Automation: Reduce manual job search effort by 80%
+* Automation: Reduce manual job search effort by 80%
 
-*Accuracy: Deliver >90% relevant job matches
+* Accuracy: Deliver >90% relevant job matches
 
-*Timeliness: Notify users within 1 hour of new job posting
+* Timeliness: Notify users within 1 hour of new job posting
 
-*Scalability: Support multiple job sources and user profiles
+* Scalability: Support multiple job sources and user profiles
 
-*Usability: Require minimal technical knowledge to operate
+* Usability: Require minimal technical knowledge to operate
