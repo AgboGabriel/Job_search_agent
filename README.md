@@ -22,7 +22,7 @@
 | 1.0 | 2nd March 20206 | Agbo Gabriel | Initial draft |
 
 ## 2. Introduction
-[Brief description of the project]
+The Job Search Agent is an intelligent autonomous system designed to revolutionize the job search process through automation and personalization. Built using the SPADE (Smart Python Agent Development Environment) framework, this agent operates as a digital employment assistant that continuously monitors multiple job platforms on behalf of the user. The system begins by constructing a detailed user profile containing skills, experience level, location preferences, job type preferences, and salary expectations. Once configured, the agent autonomously performs scheduled searches across integrated job sources, collects and normalizes job listings, and applies a sophisticated matching algorithm that evaluates each opportunity against the user's profile.
 
 ## 3. System Goals
 ...
