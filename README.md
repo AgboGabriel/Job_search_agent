@@ -1,40 +1,50 @@
-# Job Search Agent - Requirements Document
+# Job Search Agent (SkillScout) - Requirements Document
 
 **Version:** 1.0
-**Last Updated:** 2nd March 2026
+**Last Updated:** 18th March 2026
 **Author:** Agbo Gabriel
 
-## Table of Contents
-1. Document Control
-2. Introduction
-3. System Goals
-4. Functional Requirements
-5. Non-Functional Requirements
-6. User Stories
-7. Constraints
-8. Success Criteria
-9. Glossary
-10. Appendices
+## Overview
+SkillScout is a single-agent system designed to help users find job opportunities based on their skills, preferences, and experience level.
 
-## 1. Document Control
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2nd March 2026 | Agbo Gabriel | Initial draft |
+The agent automatically:
 
-## 2. Introduction
-The Job Search Agent is an intelligent autonomous system designed to revolutionize the job search process through automation and personalization. Built using the SPADE (Smart Python Agent Development Environment) framework, this agent operates as a digital employment assistant that continuously monitors multiple job platforms on behalf of the user. The system begins by constructing a detailed user profile containing skills, experience level, location preferences, job type preferences, and salary expectations. Once configured, the agent autonomously performs scheduled searches across integrated job sources, collects and normalizes job listings, and applies a sophisticated matching algorithm that evaluates each opportunity against the user's profile.
+* Searches for jobs
 
-## 3. System Goals
-**Primary Goal**
-Create an intelligent autonomous agent that continuously searches, filters, and notifies users about relevant job opportunities matching their skills and preferences.
+* Matches users to relevant roles
 
-**Secondary Goals**
-* Automation: Reduce manual job search effort by 80%
+* Sends notifications
 
-* Accuracy: Deliver >90% relevant job matches
+* Learns from user interactions
 
-* Timeliness: Notify users within 1 hour of new job posting
 
-* Scalability: Support multiple job sources and user profiles
+## 1. Requirements
+Make sure you have the following installed:
 
-* Usability: Require minimal technical knowledge to operate
+* Python 3.8 or higher
+
+* pip (Python package manager)
+
+## 2. Installation
+**Clone or download the project**
+* git clone <your-repository-url> 
+* cd job_agent
+
+**Install Dependencies**
+* pip install -r requirements.txt
+
+## 3. Running the System
+Open your first Terminal
+* cd job_agent
+* spade run
+
+Open your second Terminal
+* cd job_agent
+* python main.py
+
+## 4. Using the System
+**Available Commands**
+users - Show all users list_jobs - Show job database matches <user> - Show job matches status - Show agent status help - Show commands exit - Stop the agent
+
+**Example**
+matches sarah@localhost

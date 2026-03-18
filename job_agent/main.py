@@ -446,9 +446,9 @@ async def console_command_handler(agent):
                                 elif score >= 80:
                                     indicator = "STRONG"
                                 elif score >= 70:
-                                    indicator = "🟡 GOOD"
+                                    indicator = "GOOD"
                                 else:
-                                    indicator = "🔵 POTENTIAL"
+                                    indicator = "POTENTIAL"
                                 
                                 print(f"\n{i}. {indicator} ({score}%)")
                                 print(f"   {job.get('title')} at {job.get('company')}")
