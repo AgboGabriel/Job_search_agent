@@ -44,7 +44,12 @@ Open your second Terminal
 
 ## 4. Using the System
 **Available Commands**
-users - Show all users list_jobs - Show job database matches <user> - Show job matches status - Show agent status help - Show commands exit - Stop the agent
+users          - show all users
+list_jobs      - show job database
+matches <user> -show job matches
+status         - show agent status
+help           - Show commands
+exit           - Stop the agent
 
 **Example**
 matches sarah@localhost
